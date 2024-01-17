@@ -10,12 +10,13 @@
 
 <body>
     <div class="container">
+        <h1>Switch</h1>
         <div class="box">
             <div class="circle">
-                <div class="mini-circle"></div>
+                <div id="mini" class="mini-circle"></div>
             </div>
             <p>small switch</p>
-            <div class="toggle-switch">
+            <div class="toggle-switch" onclick="toggleSwitch(this)">
                 <div class="toggle-slider"></div>
             </div>
         </div>
@@ -24,7 +25,7 @@
                 <div class="mini-circle"></div>
             </div>
             <p>default switch</p>
-            <div class="toggle-switch toggle-switch-one">
+            <div class="toggle-switch toggle-switch-one" onclick="toggleSwitch(this)">
                 <div class="toggle-slider toggle-slider-one"></div>
             </div>
         </div>
@@ -33,7 +34,7 @@
                 <div class="mini-circle"></div>
             </div>
             <p>large switch</p>
-            <div class="toggle-switch toggle-switch-two">
+            <div class="toggle-switch toggle-switch-two" onclick="toggleSwitch(this)">
                 <div class="toggle-slider toggle-slider-two"></div>
             </div>
         </div>
@@ -42,7 +43,7 @@
                 <div class="mini-circle"></div>
             </div>
             <p>custom switch</p>
-            <div class="toggle-switch toggle-switch-three">
+            <div class="toggle-switch toggle-switch-three" onclick="toggleSwitch(this)">
                 <div class="toggle-slider toggle-slider-three"></div>
             </div>
         </div>
